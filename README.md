@@ -1,3 +1,5 @@
+> This is a template repo. Click on "Use this template" button in Github to fork and customize it for your CTSM development work.
+
 ## How to use
 
 - Prepare the data for your case. See [this guide](https://metos-uio.github.io/CTSM-Norway-Documentation/quick-start-single-point/) on how to create data for a single point.
