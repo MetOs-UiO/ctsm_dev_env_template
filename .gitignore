@@ -1,0 +1,10 @@
+.env
+
+ctsm/
+
+cases/*
+!cases/.gitkeep
+!cases/*.sh
+
+data/*
+!data/.gitkeep
