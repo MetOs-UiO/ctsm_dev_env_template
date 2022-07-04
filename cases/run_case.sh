@@ -23,8 +23,6 @@ $CTSM_ROOT/cime/scripts/create_newcase \
 
 cd $CASE_PATH
 
-./xmlchange PTS_LAT=61.0243
-./xmlchange PTS_LON=8.12343
 ./xmlchange STOP_OPTION=nyears
 ./xmlchange STOP_N=1
 
