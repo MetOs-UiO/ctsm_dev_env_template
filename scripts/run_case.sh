@@ -17,7 +17,7 @@ $CTSM_ROOT/cime/scripts/create_newcase \
     --compset 2000_DATM%GSWP3v1_CLM50%FATES_SICE_SOCN_MOSART_SGLC_SWAV \
     --res CLM_USRDAT \
     --driver nuopc \
-    --machine container-nlp \
+    --machine docker \
     --run-unsupported \
     --handle-preexisting-dirs r
 

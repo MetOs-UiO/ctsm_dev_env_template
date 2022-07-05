@@ -4,7 +4,10 @@ ctsm/
 
 cases/*
 !cases/.gitkeep
-!cases/*.sh
 
 data/*
 !data/.gitkeep
+
+tests/*
+!tests/.gitkeep
+!tests/test_suite.example

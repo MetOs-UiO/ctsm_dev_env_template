@@ -4,7 +4,7 @@
          system. Examples are prodived for Mac OS X systems with
          homebrew and macports. -->
 
-    <compiler MACH="container-nlp">
+    <compiler MACH="docker">
         <CPPDEFS>
             <!-- these flags enable nano timers -->
             <append MODEL="gptl">-DHAVE_NANOTIME -DBIT64 -DHAVE_VPRINTF -DHAVE_BACKTRACE -DHAVE_SLASHPROC -DHAVE_COMM_F2C -DHAVE_TIMES -DHAVE_GETTIMEOFDAY</append>
