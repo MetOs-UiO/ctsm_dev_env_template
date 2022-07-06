@@ -22,7 +22,7 @@ if [ ! -d ctsm ]; then
 
     cd ctsm
     echo "Checking out branch $CTSM_BRANCH"
-    git switch $CTSM_TAG
+    git checkout $CTSM_TAG
 
     echo "Checking out ctsm externals"
     ./manage_externals/checkout_externals
