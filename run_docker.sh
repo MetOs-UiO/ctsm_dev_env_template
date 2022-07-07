@@ -34,11 +34,11 @@ docker run \
     --rm \
     -it \
     --entrypoint /ctsm-api/docker/entrypoint.sh \
-    -e HOST_USER=${USER} \
-    -e HOST_UID=${UID} \
-    -e HOST_GID=${GID} \
-    -v $(pwd)/docker/entrypoint.sh:/ctsm-api/docker/entrypoint.sh \
-    -v $(pwd)/docker/dotcime:/ctsm-api/resources/dotcime \
+    -e HOST_USER=${HOST_USER} \
+    -e HOST_UID=${HOST_UID} \
+    -e HOST_GID=${HOST_GID} \
+    -v $(pwd)/docker/ctsm/entrypoint.sh:/ctsm-api/docker/entrypoint.sh \
+    -v $(pwd)/docker/ctsm//dotcime:/ctsm-api/resources/dotcime \
     -v $(pwd)/ctsm:/ctsm-api/resources/ctsm \
     -v $(pwd)/scripts:/ctsm-api/scripts \
     -v $(pwd)/cases:/ctsm-api/resources/cases \

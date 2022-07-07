@@ -1,12 +1,16 @@
 .env
 
 ctsm/
+!docker/ctsm
 
 cases/*
 !cases/.gitkeep
 
 data/*
 !data/.gitkeep
+
+notebooks/*
+!notebooks/.gitkeep
 
 tests/*
 !tests/.gitkeep
