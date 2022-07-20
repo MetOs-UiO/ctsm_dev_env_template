@@ -9,10 +9,6 @@ if [ -z "$CONTAINER" ]; then
     docker build -t ctsm-dev-jupyter:latest ./docker/jupyter
 fi
 
-echo $HOST_USER
-echo $HOST_UID
-echo $HOST_GID
-
 docker run \
     --rm \
     -it \
